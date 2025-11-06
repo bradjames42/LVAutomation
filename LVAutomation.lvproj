@@ -231,13 +231,14 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6DD0B6CA-E18E-48AE-866F-9FF1321909B9}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/OPCLib.llb</Property>
 				<Property Name="Destination[0].type" Type="Str">LLB</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{53266002-78EF-46FB-8C30-9E581C194E6C}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F6842D1C-E275-4583-9387-CF45F4A3730B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.depDestIndex" Type="Int">0</Property>
