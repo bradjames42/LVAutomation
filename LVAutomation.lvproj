@@ -183,14 +183,14 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{110F5574-F735-4CA1-A41B-0104A9E5B8B5}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">2</Property>
-				<Property Name="Bld_version.patch" Type="Int">4</Property>
+				<Property Name="Bld_version.patch" Type="Int">5</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Common.llb</Property>
 				<Property Name="Destination[0].type" Type="Str">LLB</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F66D5543-3B09-4EF7-AA5C-1D455D8B3DAE}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{090E8BC6-F97C-44A1-8406-B9F0537354B8}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.depDestIndex" Type="Int">0</Property>
@@ -210,7 +210,10 @@
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Custom Controls</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Support Files/VarexLib.dll</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">5</Property>
 			</Item>
 			<Item Name="OPCUA Library" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{27025F99-5A7A-49A2-A088-878CC266432E}</Property>
